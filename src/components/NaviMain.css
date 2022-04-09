@@ -1,0 +1,63 @@
+
+nav {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 1rem;
+  }
+  
+.nav-main {
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 0px;
+    margin-left: 2rem;
+    padding: 0rem;
+    text-transform: uppercase;
+    background-color: black;
+    color: blanchedalmond;
+    border-radius: 2rem;
+    box-shadow: 1px 5px 30px rgba(2, 21, 71, 0.651);
+}
+
+
+/* buttons........................... */
+
+
+.nav-main__button, .nav-main__button a {
+    display: inline-block
+  }
+  
+  
+.nav-main__button a {
+    padding: 1rem 2.2rem;
+  }
+  
+.nav-main__button a, .nav-main__button a:hover, .nav-main__button a:visited {
+    text-decoration: none;
+    color: blanchedalmond;
+  }
+  
+.nav-main__button a:hover {
+    background: var(--nav-main-dark-blue);
+    background: linear-gradient(180deg, rgba(8,42,94,1) 30%, rgba(0,0,0,1) 80%, rgba(243,243,243,1) 243%);
+  }
+  
+  
+.hover-left a:hover, .hover-left a:focus {
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+  }
+  
+.hover-right a:hover, .hover-right a:focus {
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+  }
+
+/* main button active state........... */
+
+.nav-main__button a.mb-active {
+  color: var(--dropdown-active)
+}
+
+.nav-main__button a.mb-active:hover {
+  background: black;
+  cursor:default
+}

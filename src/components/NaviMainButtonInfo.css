@@ -1,0 +1,26 @@
+
+.info-button {
+    vertical-align: middle;
+    font-size: 2rem;
+    margin-left: 1rem;
+    color: black;
+  }
+  
+  
+.info-button:hover {
+    color: var(--nav-main-dark-blue);
+}
+
+/* active state */
+
+a.info-button-active span, a.info-button-active:hover span {
+  color: var(--blue);
+  animation-name: fade;
+  animation-duration: 2s;
+  cursor: default;
+}
+
+@keyframes fade {
+  from {color: rgb(0, 0, 0);}
+  to {color: var(--blue)}
+}
